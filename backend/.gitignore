@@ -1,0 +1,71 @@
+# Composer / Node
+/vendor
+/node_modules
+
+# Environment
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+# manter .env.example no repo
+!.env.example
+# (se quiser bloquear tudo .env.*, use '.env.*' e depois reverter !.env.example)
+
+# Build / public
+/public/build
+/public/hot
+/public/storage
+
+# Storage (logs, cache, uploads)
+# ignorar uploads e logs gerados localmente
+/storage/*.key
+/storage/logs/*.log
+/storage/debugbar/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/app/private/*
+# se você usa storage/app/public e quer versionar algum placeholder, ajuste
+
+# Cache / bootstrap
+/bootstrap/cache/*.php
+
+# PHPUnit / test artifacts
+/.phpunit.cache
+.phpunit.result.cache
+/coverage
+/build/logs
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+/.idea
+/.vscode
+/.phpstorm.meta.php
+/.history
+
+# Temp / misc
+npm-debug.log
+yarn-error.log
+composer.phar
+*.sqlite
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.zip
+
+# Docker / infra (evitar vazar credenciais em compose/k8s)
+docker-compose.override.yml
+.env.docker
+*.pem
+*.key
+
+# Optional: ignores para backups e snapshots
+*.tgz
+*.tar.gz
+
+# GitHub / CI: não ignorar workflows — em vez disso, verifique manualmente por secrets
+# .github/workflows/*
