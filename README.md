@@ -1,22 +1,43 @@
-# ✅ Questionário Validador
+# Sistema de Validação de Cadastros — Migração de Bilhetagem
 
-O **Questionário Validador** é um sistema de gerenciamento que tem como objetivo **validar informações enviadas por usuários de transporte público** por meio de formulários/questionários, permitindo que esses dados sejam posteriormente cadastrados de forma segura em outros sistemas operacionais.
+Solução desenvolvida para validar registros de usuários durante a troca do sistema de bilhetagem. Recebe dados e fotos via formulário, valida com regras de negócio e segurança, sincroniza registros aprovados com o sistema da nova operadora e envia notificações por e-mail (aprovado / erro).
 
 Além da validação de dados, o sistema oferece **ferramentas de filtragem, comunicação por e-mail e facilidades administrativas** que otimizam o trabalho dos responsáveis pelo cadastro.
 
 ---
 
-## 🚀 Funcionalidades principais
+## Recursos principais
 
-- ✔️ **Validação de respostas** de usuários de transporte público
-- 📧 **Envio automático de e-mails** com notificações e atualizações para os usuários
-- 🔍 **Filtros avançados** para facilitar a visualização e organização das respostas
-- 🧾 **Interface administrativa prática**, com foco na produtividade e clareza
-- 📊 **Organização de status** (pendente, aprovado, irregular, bloqueado, etc.)
-- 🔄 **Atualização em lote** para tratamento rápido de grandes volumes de respostas
-- 📁 Exportação e integração com outros sistemas, se necessário
+- 🧾 **Interface administrativa** para validação com ações rápidas (copiar dados, baixar imagem comprimida, enviar e-mail ok/erro).  
+- 🔍 **Filtros avançados** para facilitar a visualização e organização das respostas.  
+- 📧 **Envio de e-mails** com template para aprovação e template com texto editável para erro/rejeição.  
+- ✔️ **Log de auditoria** para cada ação (quem validou, quando).  
+- 📊 **Organização de status** (pendente, aprovado, irregular, bloqueado, etc.).  
+- 📁 **Integração com informações provenientes de .xlsx e do banco de dados**.
 
 ---
 
+## Demonstração (imagens)
 
+1) **Visão geral da tabela**  
+Tabela com opções de filtragem e separação por cor (cor do fundo do campo `id`) para otimização do processo administrativo.  
+![Visão Geral](assets/Screenshot1.png)
 
+2) **Visão detalhada do registro**  
+Página do registro: copiar dados para área de transferência, baixar imagem comprimida, enviar e-mail ok/erro.  
+![Visão Detalhada](assets/Screenshot2.png)
+
+3) **Exemplos de e-mail (Aprovado / Erro) — lado a lado**  
+<p>
+  <img src="assets/Screenshot3.png" alt="E-mail aprovado" style="width:48%; margin-right:2%">
+  <img src="assets/Screenshot4.png" alt="E-mail de erro" style="width:48%">
+</p>
+
+---
+
+## Autoria
+
+- [Gabriel Novotni](https://github.com/Geros-Von-Valdo) — Desenvolvedor principal  
+- [João Kinkoski](https://github.com/kinkoskisDev) — Back-end / Integração
+
+---
