@@ -27,17 +27,14 @@ Tabela com opções de filtragem e separação por cor (cor do fundo do campo `i
 Página do registro: copiar dados para área de transferência, baixar imagem comprimida, enviar e-mail ok/erro.  
 ![Visão Detalhada](assets/Screenshot2.png)
 
-3) **Exemplos de e-mail (Aprovado / Erro) — lado a lado**  
-<p>
-  <img src="assets/Screenshot3.png" alt="E-mail aprovado" style="width:48%; margin-right:2%">
-  <img src="assets/Screenshot4.png" alt="E-mail de erro" style="width:48%">
-</p>
+3) **Exemplo de e-mail**  
+![Email Erro](assets/Screenshot4.png)
 
 ---
 
 ## Autoria
 
-- [Gabriel Novotni](https://github.com/Geros-Von-Valdo) — Desenvolvedor principal  
-- [João Kinkoski](https://github.com/kinkoskisDev) — Back-end / Integração
+- [Gabriel Novotni](https://github.com/Geros-Von-Valdo) — Front-end (interfaces administrativas, UX), integração de sistemas (APIs e sincronização) e funcionalidades de envio de e-mails.  
+- [João Kinkoski](https://github.com/kinkoskisDev) — Back-end (APIs, ingestão e processamento de dados).
 
 ---
