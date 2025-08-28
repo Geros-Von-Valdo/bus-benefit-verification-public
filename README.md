@@ -2,6 +2,8 @@
 
 Solução desenvolvida para validar registros de usuários durante a troca do sistema de bilhetagem. Recebe dados e fotos via formulário, valida com regras de negócio e segurança, sincroniza registros aprovados com o sistema da nova operadora e envia notificações por e-mail (aprovado / erro).
 
+Projeto executado em regime intensivo durante a janela de migração — prazos curtos, alta pressão operacional e necessidade de entrega segura e auditável. Resultado: solução mínima viável com foco em segurança, automação e comunicação clara com os usuários.
+
 Além da validação de dados, o sistema oferece **ferramentas de filtragem, comunicação por e-mail e facilidades administrativas** que otimizam o trabalho dos responsáveis pelo cadastro.
 
 ---
